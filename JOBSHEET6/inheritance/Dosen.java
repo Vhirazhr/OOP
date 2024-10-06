@@ -5,9 +5,9 @@ public class Dosen extends Pegawai{
     public String nidn;
 
     public Dosen() {
-        System.out.println(gaji);
-        System.out.println("Object dari class Dosen dibuat");
-    }
+      System.out.println(gaji);
+       System.out.println("Object dari class Dosen dibuat");
+   }
 
     public String getInfo(){
         return "NIDN : " + this.nidn + "\n";
@@ -19,11 +19,9 @@ public class Dosen extends Pegawai{
         return info;
     }
 
-    public Dosen(String nip, String nama, double gaji, String nidn) {
-        System.out.println("Objek dari class Dosen dibuat dengan constructor berparameter");
-        this.nip = nip;
-        this.name = nama;
-        this.gaji = gaji;
+    public Dosen(String nip, String name, double gaji, String nidn) {
+        super(nip, name, gaji);
         this.nidn = nidn;
+        
     }
 }

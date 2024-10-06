@@ -13,5 +13,4 @@ public class InheritanceDemo {
         Dosen dosen2 = new Dosen("3456724", "yuyun Ningtias", 3000000, "1786542398");
         System.out.println(dosen2.getAllInfo());
     }
-
 }
